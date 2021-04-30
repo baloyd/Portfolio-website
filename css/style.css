@@ -141,28 +141,28 @@ h5 {
     
 }
 /*Portfolio images*/
-.carousel {
-    background-image: url("../images/carousel.JPG");
+.atmos {
+    background-image: url("../images/Atmos.png");
  
 }
 
-.ramen {
-    background-image: url("../images/ramen.jpeg");
+.scheduler {
+    background-image: url("../images/Scheduler.png");
 
 }
 
-.planta {
-    background-image: url("../images/planta.jpg");
+.weather {
+    background-image: url("../images/weather.png");
   
 }
 
-.grimes {
-    background-image: url("../images/grimes.jpeg");
+.quiz {
+    background-image: url("../images/quiz.jpg");
   
 }
 
-.windmill {
-    background-image: url("../images/windmill.jpeg");
+.password {
+    background-image: url("../images/password.jpg");
 
 }
 
@@ -254,4 +254,4 @@ h5 {
         width: 100%;
         height: 400px;
     }
-}
+}}
