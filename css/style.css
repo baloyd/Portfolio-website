@@ -2,6 +2,7 @@
     --primary: bisque;
     --secondary: rgb(124, 123, 128);
     --tertiary: white;
+    --quaternary:rgb(48, 77, 48);
   
 }
 
@@ -107,11 +108,11 @@ h5 {
     font-size: 25px;
     color:var(--tertiary);
     padding-right: 25px;
-   border: solid 2px var(--secondary);
+   border: solid 2px var(--quaternary);
    border-top-right-radius: 20px;
    border-bottom-right-radius: 20px;
-   background-color:var(--secondary);
-   opacity: 80%;
+   background-color:var(--quaternary);
+   opacity: 100%;
     
 }
 
@@ -124,7 +125,7 @@ h5 {
     flex-wrap:wrap;
     margin: 5px;
     padding-bottom: 15px;
-    opacity: 70%;
+    opacity: 100%;
     transition: opacity 1s;
     background-size: cover;
   background-position: center;
@@ -132,7 +133,7 @@ h5 {
   }
 
   .box:hover{
-      opacity:100%;
+      opacity:50%;
   }
 
   .box:first-child {
@@ -156,13 +157,13 @@ h5 {
   
 }
 
-.quiz {
-    background-image: url("../images/quiz.jpg");
+.roundTable {
+    background-image: url("../images/roundtable.jpg");
   
 }
 
-.password {
-    background-image: url("../images/password.jpg");
+.profile {
+    background-image: url("../images/profile.png");
 
 }
 
